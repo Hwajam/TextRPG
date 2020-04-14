@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 
 namespace Csharp
 {
@@ -7,7 +8,10 @@ namespace Csharp
         {
                 static void Main(string[] args)
                 {
-             
+                        Player player = new Knight();
+                        Monster monster = new Orc();
+                        int damage = player.GetAttack();
+                        monster.OnDamaged(damage);
                 }
         }
 }

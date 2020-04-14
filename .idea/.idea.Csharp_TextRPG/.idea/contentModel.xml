@@ -6,7 +6,9 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Csharp_TextRPG" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Creature.cs" t="Include" />
         <e p="Csharp_TextRPG.csproj" t="IncludeRecursive" />
+        <e p="Monster.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
